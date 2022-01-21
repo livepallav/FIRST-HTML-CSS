@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{ 
+    background-color:var(--bgcolor);
+    height: 12vh;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+header{
+    background-color: var(--bgcolor);
+    /* border: 2px solid red; */
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+nav ul {
+    display: flex;
+    justify-content:flex-start;
+    height: 58px;
+    align-items: center;
+}
+/* :root -> to create variable with global scope */
+:root{
+    --bgcolor: blue;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+nav ul li a:hover {
+    color: greenyellow;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+.search{
+   
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--bgcolor);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+.slider img{
+    width: 80vw;
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.cricket{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Dancing Script', cursive;
+}
+.my1{
+    margin: 26px 0;
+}
+.texcen{
+    text-align: center;
+}
+.carditem {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px ;
+}
+.my2{
+    margin: 5px;
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+}
